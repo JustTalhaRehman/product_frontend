@@ -4,8 +4,8 @@ services:
     ports:
       - "5000:80"
     networks:
-      - backend_network  # attach backend network
+      - product_backend_default  # backend ka correct network attach karo
 
 networks:
-  backend_network:
+  product_backend_default:
     external: true
