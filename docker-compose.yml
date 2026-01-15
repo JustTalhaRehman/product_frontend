@@ -1,6 +1,6 @@
 services:
   frontend:
-    image: talharehman2727/product_frontend:latest
+    image: talharehman2727/product_frontend:1.0.0
     ports:
       - "5000:80"
     networks:
